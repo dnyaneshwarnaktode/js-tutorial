@@ -1,0 +1,23 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/stu-bell/devcontainer-features/node:0": {
+			"nodeGypDependencies": true,
+			"installYarnUsingApt": true,
+			"pnpmVersion": "latest",
+			"nvmVersion": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/node-asdf:0": {
+			"version": "latest"
+		},
+		"ghcr.io/postfinance/devcontainer-features/node:1": {
+			"version": "lts",
+			"npmVersion": "included",
+			"yarnVersion": "none",
+			"pnpmVersion": "none",
+			"corepackVersion": "none",
+			"downloadUrl": "https://mycompany.com/artifactory/nodejs-generic-remote/dist",
+			"globalNpmRegistry": "https://mycompany.com/artifactory/api/npm/npm/"
+		}
+	}
+}
