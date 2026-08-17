@@ -15,3 +15,7 @@ console.log(gameName.indexOf('y'));
 
 console.log(gameName.split('-'));
 
+const newString = "   pranay   ";
+console.log(newString);
+console.log(newString.trim());
+console.log(newString.toUpperCase());
